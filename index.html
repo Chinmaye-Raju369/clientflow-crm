@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Lead Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ClientFlow</h1>
+        <p>Client Lead Management System</p>
+    </header>
+
+    <main>
+        <section class="dashboard">
+            <h2>Lead Dashboard</h2>
+            <p>Manage your clients and follow-ups in one place.</p>
+        </section>
+
+        <section class="form-section">
+            <h2>Add New Lead</h2>
+
+            <form id="leadForm">
+                <input type="text" id="name" placeholder="Client Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <input type="text" id="source" placeholder="Lead Source" required>
+                <button type="submit">Add Lead</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Client Leads</h2>
+            <div id="leadList"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

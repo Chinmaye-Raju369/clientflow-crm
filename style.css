@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f3f5fb;
+    color: #222;
+}
+
+header {
+    background: #4338ca;
+    color: white;
+    padding: 25px 8%;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #e0e7ff;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #0000000d;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #3730a3;
+}
+
+.dashboard p {
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+input {
+    flex: 1;
+    min-width: 180px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+}
+
+button {
+    background: #4338ca;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #312e81;
+}
+
+.lead-card {
+    padding: 15px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.lead-card p {
+    margin: 7px 0;
+    color: #555;
+}
+
+.lead-card select,
+.lead-card textarea {
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.lead-card textarea {
+    display: block;
+    width: 100%;
+    min-height: 60px;
+}
+
+.delete-btn {
+    background: #dc2626;
+    margin-top: 8px;
+}
